@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Contact </title>
+    </head>
+    <body>
+        <h1 id="top">Contact</h1>
+            <p>Nick Zamerowski<br>
+            800 Linden Street <br>
+            Scranton, PA 18510</p>
+            <p><a href="mailto:ntzamero@syr.edu">Nick Zamerowski Email</a> </p>
+            <img src="../images/linkedinbug.png" alt="LinkedIn Bug">
+            <a href="https://www.linkedin.com/in/nzamerowski/" >My LinkedIn Profile</a>
+        
+        <h2><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.5068570660633!2d-75.6569532!3d41.406514800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4ded1c8e022d7%3A0x9eebee2f179921e7!2s800%20Linden%20St%2C%20Scranton%2C%20PA%2018510!5e0!3m2!1sen!2sus!4v1706801846088!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h2>
+
+        <h2>Contact Form</h2>
+            <form action="https://formspree.io/f/mkndjeqy" method="post">
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" cols="60"></textarea><br>
+                <p>Preferred Communication Method:</p>
+                <input type="radio" id="email" name="emailphone" value="email response">
+                <label for="email">e-mail</label>
+                <input type="radio" id="phone" name="emailphone" value="phone response">
+                <label for="phone">phone</label><br>
+                <label for="enteremailphone">Enter e-mail or phone number:</label>
+                <input type="text" id="enteremailphone" name="enteremailphone"><br>
+                <input type="submit" value="Submit">
+            </form>
+    </body>

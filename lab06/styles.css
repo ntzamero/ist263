@@ -1,0 +1,7 @@
+h1 {color:orange;}
+h2 {color:green;}
+p {color:blue}
+p, h1, h2 {font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.evenrow {background-color: lightgrey;}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}

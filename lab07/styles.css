@@ -1,0 +1,24 @@
+h1, h2 {color:#FC6736;}
+p {color:#0C2D57}
+p, h1, h2 {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+h1 {font-size: 3em;}
+h2 {font-size: 2em;}
+body {background-color: #EFECEC;
+    }
+nav a:hover {
+        background-color: #F6F193;
+        color: #001524;
+    }
+nav a {
+        color: #090c37;
+    }
+nav {
+        background-color: #FFB0B0;
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+a {
+        color: #001524;
+    }
+
+    

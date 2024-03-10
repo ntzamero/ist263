@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #top {
+            border-radius: 10px;
+            background-color: #4285f4;
+            color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #5f5f5f;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .flex-container:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+
+        .contact-info {
+            flex: 1;
+        }
+
+        .contact-info img {
+            max-width: 100%;
+        }
+
+        .contact-form {
+            flex: 1;
+            margin-left: 20px; /* Add margin between contact info and form */
+        }
+
+        form {
+            width: 100%;
+        }
+
+        iframe {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="https://ntzamero.github.io/ist263/lab06/zamerowski-bio.html">Home</a> |
+        <a href="https://ntzamero.github.io/ist263/lab06/skills.html">Skills</a> |
+        <a href="https://ntzamero.github.io/ist263/lab06/contact.html">Contact</a>
+    </nav>
+
+    <h1 id="top">Contact</h1>
+
+    <div class="flex-container">
+        <div class="contact-info">
+            <p>Nick Zamerowski<br>
+                800 Linden Street <br>
+                Scranton, PA 18510
+            </p>
+            <p><a href="mailto:ntzamero@syr.edu">Nick Zamerowski Email</a></p>
+            <img src="../images/logo-sized.png" alt="LinkedIn Bug">
+            <a href="https://www.linkedin.com/in/nzamerowski/">My LinkedIn Profile</a>
+        </div>
+    </div>
+
+    <div class="flex-container">
+        <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="https://formspree.io/f/mkndjeqy" method="post">
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3" cols="60"></textarea><br>
+                <p>Preferred Communication Method:</p>
+                <input type="radio" id="email" name="emailphone" value="email response">
+                <label for="email">e-mail</label>
+                <input type="radio" id="phone" name="emailphone" value="phone response">
+                <label for="phone">phone</label><br>
+                <label for="enteremailphone">Enter e-mail or phone number:</label>
+                <input type="text" id="enteremailphone" name="enteremailphone"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div>
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.5068570660633!2d-75.6569532!3d41.406514800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c4ded1c8e022d7%3A0x9eebee2f179921e7!2s800%20Linden%20St%2C%20Scranton%2C%20PA%2018510!5e0!3m2!1sen!2sus!4v1706801846088!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>
+

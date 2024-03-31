@@ -1,0 +1,115 @@
+body {
+    background-color: #EFECEC;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #d2670a;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    color: #0C2D57;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #FFB0B0;
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #090c37;
+    margin-right: 10px;
+    text-decoration: underline;
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+nav a:hover {
+    background-color: #F6F193;
+    color: #001524;
+}
+
+nav span {
+    margin: 0 5px;
+}
+
+.sidebar {
+    background-color: #eda1a1;
+    color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: left;
+    width: 150px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div i {
+    font-size: 3em;
+}
+
+.flex-container-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.container {
+    margin: 0 50px;
+}
+
+.banner {
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav {
+        font-size: 14px;
+    }
+
+    .nav li {
+        padding: 10px;
+    }
+
+    .nav a {
+        width: 100%;
+        display: block;
+    }
+
+    nav a + span {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav span {
+        display: none;
+    }
+}
+
+    
+    

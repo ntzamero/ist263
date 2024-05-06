@@ -178,3 +178,16 @@ nav a {
     overflow: hidden;
     margin-bottom: 20px;
 }
+.skip {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid #ffa500;
+    position: absolute;
+    top: 10px;
+    left: -999px; 
+}
+.skip:focus {
+    left: 10px;
+}

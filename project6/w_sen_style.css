@@ -1,0 +1,164 @@
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.banner {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.officers-info {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.officers-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.text-box {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: calc(100% - (150px + 20px));
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.officers-image,
+.NewMember,
+.party,
+.Map,
+.Click {
+    display: block;
+    margin: 0 auto;
+}
+
+.NewMember,
+.party,
+.Map,
+.Click {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.officers-image {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    width: 200px;
+}
+
+footer {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+body {
+    background-color: #EFECEC;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2 {
+    color: #1551c9;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #dd6767;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #5571fc;
+    color: #001524;
+}
+
+header {
+    padding-bottom: 20px;
+}
+
+nav a {
+    color: #000000;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.officers-info {
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.officers-image {
+    float: left;
+    margin-right: 30px;
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.text-box {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(100% - 290px);
+    box-sizing: border-box;
+}
+
+h3 {
+    margin-top: 0;
+}
+.skip {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    border: 1px solid #ffa500;
+    position: absolute;
+    top: 10px;
+    left: -999px; 
+}
+.skip:focus {
+    left: 10px;
+}

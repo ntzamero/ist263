@@ -97,3 +97,24 @@ footer {
 .party {
   border: 2px solid #000000; 
 }
+@media only screen and (max-width: 600px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .content p {
+    margin-right: 0; 
+  }
+
+  .group {
+    width: 100%; 
+  }
+
+  .controls {
+    flex-direction: column; 
+  }
+
+  .slideshow .party {
+    width: 100%; 
+  }
+}

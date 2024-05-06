@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #303030;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #bababa;
+  color: #ffffff;
+  padding: 1em;
+}
+
+nav {
+  font-weight: bold;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 1em;
+}
+nav {
+  background-color: #dd6767;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  font-weight: bold;
+}
+
+nav a {
+  color: #171d64;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #5571fc;
+  color: #001524;
+}
+
+.banner {
+  display: block;
+  width: 100%;
+}
+
+main {
+  padding: 2em;
+}
+
+.section {
+  margin-bottom: 2em;
+}
+
+h1, h2, h3 {
+  color: #2f2f2f;
+  margin-bottom: 1em;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content p {
+  flex: 1;
+  margin-right: 2em;
+}
+
+.group {
+  width: 40%;
+  margin-bottom: 1em;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #303030;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+}
+.slideshow .party {
+  width: 20%;
+  margin: 1em; 
+}
+.group,
+.party {
+  border: 2px solid #000000; 
+}
